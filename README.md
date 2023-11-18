@@ -1,6 +1,6 @@
 # QlikToolkit: Python Scripts for QlikView / Qlik Sense / Qlik SaaS / Qlik Data File (QVD) Analysis
 
-Welcome to the QlikToolkit repository, a collection of Python scripts designed to streamline the analysis of QlikView (.qvw), Qlik Sense (.qvf), Qlik SaaS, and Qlik Data File (qvd) files. This toolkit empowers Qlik developers and analysts with tools to efficiently work with Qlik data, including tasks such as converting .qvd files to .csv or .xlsx, searching for specific .qvd or .qvw files within log files (.qvw.log), and managing files within folders.
+Welcome to the QlikToolkit repository, a collection of Python scripts designed to streamline the analysis of QlikView (.qvw), Qlik Sense (.qvf), Qlik SaaS, and Qlik Data File (.qvd) files. This toolkit empowers Qlik developers and analysts with tools to efficiently work with Qlik data, including tasks such as converting .qvd files to .csv or .xlsx, searching for specific .qvd or .qvw files within log files (.qvw.log), and managing files within folders.
 
 ## Features:
 ### 1. QVD Conversion:

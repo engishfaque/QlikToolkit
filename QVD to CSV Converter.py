@@ -3,7 +3,7 @@ Program:        QVD to CSV Converter
 Version:        1.0
 Author:         Ishfaque Ahmed
 Date:           25.11.2023, Saturday
-Description:    This Python script reads data from a Qlik Data File (QVD) using the qvd_reader module and saves it as a CSV file using the pandas package
+Description:    This Python script reads data from a Qlik Data File (.qvd) using the qvd_reader module and saves it as a CSV file using the pandas package
 
 Use cases:      - Data Conversion
 """
@@ -18,6 +18,9 @@ from qvd import qvd_reader
 import pandas as pd
 
 # Define the relative or absolute path to the QVD file
+# Example of relative path: 'Data Sources\QVDs'
+# Example of absolute path: r'C:\Users\Documents\QVDs'
+# Example of server share folder path: r'\\Server1\DataSource'
 QVD_PATH = r'Data Sources\QVDs'
 QVD_FILENAME = 'F_Products.qvd'
 

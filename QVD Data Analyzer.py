@@ -1,9 +1,9 @@
 """
-Program:        QVD Data Analysis Program
+Program:        QVD Data Analyzer
 Version:        1.2
 Author:         Ishfaque Ahmed
 Date:           25.11.2023, Saturday
-Description:    This Python script reads data from a QlikView QVD file using the qvd_reader module and prints the resulting DataFrame using pandas package
+Description:    This Python script reads data from a Qlik Data File (QVD) using the qvd_reader module and prints the resulting DataFrame using pandas package
 
 Use cases:      - Data Exploration and Inspection
                 - Data Validation
@@ -11,16 +11,16 @@ Use cases:      - Data Exploration and Inspection
 
 """
 
-# Importing the 'os' module, which provides a way to interact with the operating system.
-# This module allows tasks such as file and directory manipulation, working with environment variables, and more.
+# Importing the 'os' module, which provides a way to interact with the operating system
+# This module allows tasks such as file and directory manipulation, working with environment variables, and more
 import os
 
-# Importing the qvd_reader module from the qvd package.
-# qvd_reader module is used to read data from a QVD file, and it returns the data in the form of a DataFrame therefore, pandas package required.
+# Importing the qvd_reader module from the qvd package
+# qvd_reader module is used to read data from a QVD file, and it returns the data in the form of a DataFrame therefore, pandas package required
 from qvd import qvd_reader
 
-# Importing the 'pandas' library with the alias 'pd'.
-# Pandas is a powerful data manipulation library and is used here for further analysis and manipulation of the data.
+# Importing the 'pandas' library with the alias 'pd'
+# Pandas is a powerful data manipulation library and is used here for further analysis and manipulation of the data
 import pandas as pd
 
 # Define the relative or absolute path to the QVD file

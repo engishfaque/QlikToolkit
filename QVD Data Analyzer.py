@@ -3,7 +3,7 @@ Program:        QVD Data Analyzer
 Version:        1.2
 Author:         Ishfaque Ahmed
 Date:           25.11.2023, Saturday
-Description:    This Python script reads data from a Qlik Data File (QVD) using the qvd_reader module and prints the resulting DataFrame using pandas package
+Description:    This Python script reads data from a Qlik Data File (.qvd) using the qvd_reader module and prints the resulting DataFrame using pandas package
 
 Use cases:      - Data Exploration and Inspection
                 - Data Validation
@@ -63,6 +63,7 @@ try:
     # Generating descriptive statistics of the DataFrame
     print("\n Descriptive Statistics:")
     print(df.describe())
+    
 except FileNotFoundError as e:
     # Handling the case when the QVD file is not found
     print(f"Error: QVD file not found - {e}")
